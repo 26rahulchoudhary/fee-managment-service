@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment variables
+.env
+local.settings.json
+
+# Azure Functions
+.azurefunctions/
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
