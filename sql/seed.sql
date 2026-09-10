@@ -1,12 +1,3 @@
--- ============================================
--- Fee Management System
--- Seed Data
--- ============================================
-
--- ============================================
--- Students
--- ============================================
-
 INSERT INTO dbo.Students
     (Name, Course, Email, TotalFee, PaidAmount, DueDate)
 VALUES
@@ -34,9 +25,6 @@ VALUES
     ('Tanya Sethi', 'B.Tech Information Technology', 'tanya.sethi@example.com', 115000.00, 115000.00, '2026-10-10');
 
 
--- ============================================
--- Administrators
--- ============================================
 
 INSERT INTO dbo.Administrators
     (Name, Email, Role)
@@ -44,14 +32,3 @@ VALUES
     ('Admin User', 'admin@example.com', 'Admin'),
     ('Finance Administrator', 'finance@example.com', 'FinanceAdmin'),
     ('System Administrator', 'superadmin@example.com', 'SuperAdmin');
-
-
--- ============================================
--- Verification
--- ============================================
-
-SELECT COUNT(*) AS StudentCount
-FROM dbo.Students;
-
-SELECT COUNT(*) AS AdministratorCount
-FROM dbo.Administrators;
