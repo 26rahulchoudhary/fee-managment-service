@@ -24,3 +24,10 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Azurite local storage
+AzuriteConfig
+__azurite_db_blob__.json
+__blobstorage__/
+__queue_storage__/
+__table_storage__/
